@@ -3,12 +3,13 @@
  */
 package com.spring.study;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
-
-public class AppTest {
-    @Test public void testAppHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
-    }
-}
+// import static org.junit.Assert.*;
+// import org.junit.Test;
+//
+// public class AppTest {
+// @Test
+// public void testAppHasAGreeting() {
+// App classUnderTest = new App();
+// assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+// }
+// }
