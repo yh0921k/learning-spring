@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+		id 'eclipse'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext {
+    springVersion = '5.0.5.RELEASE'
+}
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+dependencies {
+    compile "org.springframework:spring-core:${springVersion}"
+    compile "org.springframework:spring-context:${springVersion}"
+    compile "org.slf4j:slf4j-simple:1.7.25"
+
+}
